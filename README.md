@@ -35,19 +35,18 @@ Follow these instructions to set up the project locally.
 git clone https://github.com/akankshar-oy/color-palette.git
 cd color-palette/color-palette-generator
 ```
-2. Install Dependencies
+### 2. Install Dependencies
 ```bash
 npm install
 ```
-3. Run the App
+### 3. Run the App
 ```bash
 
 npm run dev
 
 ```
-The app will be available at http://localhost:5173
 
-📁 Project Structure
+### 📁 Project Structure
 ```php
 color-palette-generator/
 ├── public/                 # Static assets
