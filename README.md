@@ -1,38 +1,63 @@
-# Color Palette Generator
+# 🎨 Color Palette Generator
 
-A simple, responsive React-based application to generate color palettes. Lock specific colors, copy hex values, and shuffle palettes to explore new combinations.
-
-## Preview
+A responsive and dynamic color palette generator built with React. Easily generate random color schemes, lock favorites, copy HEX values, and download palettes.
 
 <img width="1889" height="887" alt="image" src="https://github.com/user-attachments/assets/5ab97225-69c8-4487-baa6-565922829bcb" />
 <img width="1885" height="880" alt="image" src="https://github.com/user-attachments/assets/f7ad6305-9427-47e3-ad0e-143e9eb350b8" />
 
 
+## 🛠️ Features
 
-## Features
+- 🎲 Generate random color palettes
+- 🔒 Lock colors to preserve while generating new ones
+- 📋 Copy HEX color codes
+- 📥 Download the palette as an image
+- 🎨 Choose between different palette types
+- 🔄 Shuffle and refresh colors
 
-- Random color generation
-- Lock and unlock colors to preserve selections while shuffling
-- Copy hex codes to clipboard
-- Clean and minimal user interface
+---
 
-## Tech Stack
+## 📦 Tech Stack
 
-- React.js
-- JavaScript
-- HTML & CSS
-- Lucide Icons (for UI)
+- **Frontend**: React, CSS Modules, Tailwind (optional)
+- **Icons**: Lucide-react
+- **Bundler**: Vite
 
-## Getting Started
+---
 
-### 1. Clone the repository
+## 🚀 Getting Started
+
+Follow these instructions to set up the project locally.
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/akankshar-oy/color-palette.git
 cd color-palette/color-palette-generator
 
-### 2. Install dependencies
-
-```bash
+2. Install Dependencies
+bash
+Copy
+Edit
 npm install
+3. Run the App
+bash
+Copy
+Edit
+npm run dev
+The app will be available at http://localhost:5173
 
+📁 Project Structure
+php
+Copy
+Edit
+color-palette-generator/
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # Reusable React components (e.g. ColorCard)
+│   ├── App.jsx             # Main App component
+│   ├── main.jsx            # App entry point
+│   └── App.css             # Global styles
+├── package.json            # Project metadata and dependencies
+├── vite.config.js          # Vite configuration
+└── README.md   
