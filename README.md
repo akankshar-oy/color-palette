@@ -31,3 +31,8 @@ A simple, responsive React-based application to generate color palettes. Lock sp
 git clone https://github.com/akankshar-oy/color-palette.git
 cd color-palette/color-palette-generator
 
+### 2. Install dependencies
+
+```bash
+npm install
+
