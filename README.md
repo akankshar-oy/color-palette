@@ -34,23 +34,21 @@ Follow these instructions to set up the project locally.
 ```bash
 git clone https://github.com/akankshar-oy/color-palette.git
 cd color-palette/color-palette-generator
-
+```
 2. Install Dependencies
-bash
-Copy
-Edit
+```bash
 npm install
+```
 3. Run the App
-bash
-Copy
-Edit
+```bash
+
 npm run dev
+
+```
 The app will be available at http://localhost:5173
 
 📁 Project Structure
-php
-Copy
-Edit
+```php
 color-palette-generator/
 ├── public/                 # Static assets
 ├── src/
@@ -60,4 +58,5 @@ color-palette-generator/
 │   └── App.css             # Global styles
 ├── package.json            # Project metadata and dependencies
 ├── vite.config.js          # Vite configuration
-└── README.md   
+└── README.md
+```
